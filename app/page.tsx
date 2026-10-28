@@ -1,0 +1,1 @@
+export default function Home(){return <iframe title="Hyderabad Mega Property Expo 2027" src="/expo.html" style={{position:"fixed",inset:0,width:"100%",height:"100%",border:0}}/>}

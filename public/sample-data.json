@@ -1,0 +1,110 @@
+{
+  "notice": "Illustrative content. Real company names do not imply sponsorship, attendance or endorsement. Delegate names are fictional. No data is inserted into the live registration database.",
+  "companies": [
+    {
+      "id": "myhome",
+      "name": "My Home Constructions",
+      "city": "Hyderabad",
+      "country": "India",
+      "focus": "Residential & commercial developments",
+      "website": "https://www.myhomeconstructions.com/",
+      "color": "#832d2b"
+    },
+    {
+      "id": "aparna",
+      "name": "Aparna Constructions",
+      "city": "Hyderabad",
+      "country": "India",
+      "focus": "Residential communities & property development",
+      "website": "https://www.aparnaconstructions.com/",
+      "color": "#26746d"
+    },
+    {
+      "id": "emaar",
+      "name": "Emaar Properties",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "focus": "Master-planned communities & residential property",
+      "website": "https://www.emaar.com/en",
+      "color": "#142b4f"
+    },
+    {
+      "id": "damac",
+      "name": "DAMAC Properties",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "focus": "Luxury residential & community developments",
+      "website": "https://www.damacproperties.com/",
+      "color": "#b18a3c"
+    },
+    {
+      "id": "sobha",
+      "name": "Sobha Realty",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "focus": "Luxury villas, apartments & property development",
+      "website": "https://sobharealty.com/",
+      "color": "#497058"
+    }
+  ],
+  "sponsors": [
+    {
+      "tier": "TITLE SPONSOR \u2014 EXAMPLE",
+      "companyId": "emaar"
+    },
+    {
+      "tier": "CO-TITLE SPONSOR \u2014 EXAMPLE",
+      "companyId": "myhome"
+    },
+    {
+      "tier": "PREMIUM SPONSOR \u2014 EXAMPLE",
+      "companyId": "damac"
+    },
+    {
+      "tier": "COMMUNITY PARTNER \u2014 EXAMPLE",
+      "companyId": "aparna"
+    },
+    {
+      "tier": "LUXURY PROPERTY PARTNER \u2014 EXAMPLE",
+      "companyId": "sobha"
+    }
+  ],
+  "delegates": [
+    {
+      "name": "Arjun Varma",
+      "initials": "AV",
+      "role": "Property Development Delegate",
+      "city": "Hyderabad",
+      "bio": "Fictional profile exploring residential development and collaboration opportunities.",
+      "company": "Demo Habitat Ventures (fictional)",
+      "email": "arjun.varma@example.com"
+    },
+    {
+      "name": "Meera Rao",
+      "initials": "MR",
+      "role": "Architecture & Design Delegate",
+      "city": "Hyderabad",
+      "bio": "Fictional profile focused on urban spaces, architecture and sustainable living.",
+      "company": "Demo Urban Design Studio (fictional)",
+      "email": "meera.rao@example.com"
+    },
+    {
+      "name": "Nadia Hassan",
+      "initials": "NH",
+      "role": "Property Investment Delegate",
+      "city": "Dubai",
+      "bio": "Fictional profile interested in property showcases and cross-market networking.",
+      "company": "Demo Gulf Property Advisory (fictional)",
+      "email": "nadia.hassan@example.com"
+    },
+    {
+      "name": "Omar Khalid",
+      "initials": "OK",
+      "role": "Luxury Real Estate Delegate",
+      "city": "Dubai",
+      "bio": "Fictional profile exploring premium communities and developer partnerships.",
+      "company": "Demo Skyline Estates (fictional)",
+      "email": "omar.khalid@example.com"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+name: hmp-expo2027
+services:
+  expo:
+    image: hmp-expo2027:1.1.14
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    restart: unless-stopped
+    init: true
+    ports:
+      - "127.0.0.1:18081:3000"
+    environment:
+      ADMIN_AUTH_FILE: /run/secrets/admin-auth.json
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:?Set the public HTTPS origin}
+    volumes:
+      - expo-data:/data
+      - ${ADMIN_AUTH_FILE:?Set the administrator credential file}:/run/secrets/admin-auth.json:ro
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 384m
+    cpus: 1.0
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  expo-data:

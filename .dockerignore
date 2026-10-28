@@ -1,0 +1,11 @@
+.git
+node_modules
+.pnpm-store
+.wrangler
+.sites-runtime
+.env*
+.dev.vars*
+outputs
+.next
+dist
+*.sqlite*

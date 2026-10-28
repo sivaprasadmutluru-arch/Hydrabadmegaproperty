@@ -1,0 +1,2 @@
+import QRCode from 'qrcode';
+export async function GET(req:Request){const u=new URL(req.url);const id=u.searchParams.get('id');if(!id||!/^HMPE27-[A-Z]{3}-(?:[A-F0-9]{8}|[A-F0-9]{24})$/.test(id))return new Response('Invalid pass',{status:400});const svg=await QRCode.toString(u.origin+'/expo.html?pass='+id,{type:'svg',margin:1});return new Response(svg,{headers:{'Content-Type':'image/svg+xml','Cache-Control':'private, max-age=3600'}})}
